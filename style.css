@@ -89,6 +89,82 @@ body{
     border-bottom: 1px solid black;
 }
 
+.article{
+    padding-top: 50px;
+    color: grey;
+}
+
+.publisher-name{
+    display: flex;
+    align-items: center;
+}
+
+.publisher-name p{
+    margin: 0;
+    padding-left: 5px;
+    font-size: 11pt;
+}
+
+.article h2{
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article-block{
+    display: flex;
+}
+
+.article-content p{
+    margin: 0;
+}
+.article-img img{
+    height: 150px;
+}
+
+.bold{
+    font-weight: bold;
+    color: black;
+}
+
+.article-content{
+    font-size: 14pt;
+}
+
+.article-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.art-foot-left{
+    display: flex;
+    align-items: center;
+    font-size: 11pt;
+}
+
+.art-foot-left ul{
+    display: flex;
+    padding: 0;
+}
+
+.art-foot-left li{
+    margin-left: 25px;
+}
+
+.art-foot-right{
+    display: flex;
+    align-items: center;
+}
+.art-foot-right i{
+    font-size: 16pt;
+    padding: 10px;
+    color: black;
+
+}
+
+
+
+
 /* lato destro */
 .right-icons{
     display: flex;
