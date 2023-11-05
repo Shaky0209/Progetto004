@@ -7,6 +7,8 @@ body{
 
 /* navbar */
 .header{
+    position: fixed;
+    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -63,7 +65,8 @@ body{
 
 /* left's content */
 .article-left{
-    width: 65%;
+    margin-top: 77px;
+    width: 70%;
     padding: 50px 50px 0px 100px;
     border-right: 1px solid lightgray;
 }
@@ -116,6 +119,7 @@ body{
 
 .article-content{
     width: 100%;
+    padding-right: 35px;
 }
 
 .article-content p{
@@ -140,19 +144,32 @@ body{
     padding-right: 20px;
 }
 
-.art-foot-left{
+.art-foot{
     display: flex;
     align-items: center;
     font-size: 11pt;
 }
 
-.art-foot-left ul{
+.art-foot ul{
     display: flex;
     padding: 0;
 }
 
-.art-foot-left li{
+.art-foot li{
     margin-left: 25px;
+}
+
+.art-foot span{
+    margin-right: 5px;
+}
+
+.art-foot p{
+    padding: 5px 10px;
+}
+
+.highlighted p{
+    background-color: rgb(240, 239, 239);
+    border-radius: 15px;
 }
 
 .art-foot-right{
@@ -168,7 +185,12 @@ body{
 
 /* right's content */
 .article-right{
+    margin-top: 77px;
     padding: 50px 50px 0px 50px;
+    color: gray;
+}
+.article-right h3{
+    color: black;
 }
 
 .right-icons{
@@ -183,12 +205,13 @@ body{
 }
 
 .article-right{
-    width: 35%;
+    width: 30%;
 }
 
 /* Twitter Container */
 .twitter-container{
     display: flex;
+    color: black;
     flex-direction: column;
     align-items: center;
     padding: 0px 50px 50px 50px;
@@ -239,7 +262,7 @@ body{
     margin: 10px 5px 0px 0px;
     border: 0px;
     border-radius: 20px;
-    font-size: 16pt;
+    font-size: 12pt;
 }
 
 .topics-button p{
@@ -278,4 +301,33 @@ body{
     font-size: 12pt;
     padding: 0px 10px;
     background-color: white;
+}
+
+/* saved container*/
+
+#a{
+    margin-bottom: 20px;
+}
+.name-saved a{
+    color: green;
+}
+
+/* left's footer */
+.left-s-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+}
+.left-s-footer p{
+    margin: 10px 20px 10px 0px;
+}
+
+.left-s-footer a{
+    text-decoration: none;
+    color: grey;
+}
+
+.art-foot i{
+    padding-left: 7px;
+    font-size: 9pt;
 }
